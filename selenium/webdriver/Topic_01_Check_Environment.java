@@ -22,7 +22,7 @@ public class Topic_01_Check_Environment {
     }
 
     @Test
-    public void TC_0ADMIN1_ValidateCurrentUrl() {
+    public void TC_01_ValidateCurrentUrl() {
         String loginURL = driver.getCurrentUrl();
         Assert.assertEquals(loginURL, "http://demo.guru99.com/v4/");
     }
